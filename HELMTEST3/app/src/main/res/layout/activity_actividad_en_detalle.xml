@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Actividad_en_detalle">
+
+    <ImageView
+        android:id="@+id/image_view_detalle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui va el ID"
+        android:textColor="@android:color/black"
+        android:paddingTop="50dp"
+        android:paddingLeft="110dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/name_character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui va el nombre"
+        android:textColor="@android:color/black"
+        android:paddingLeft="110dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui va el STATUS"
+        android:textColor="@android:color/black"
+        android:paddingLeft="110dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/specie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui va el Specie"
+        android:textColor="@android:color/black"
+        android:paddingLeft="110dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui va el Genero"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="125dp"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui va el Origen"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="125dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/last_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aqui va la Ultima Localizacion"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="125dp"
+
+        android:textSize="20sp" />
+
+
+</LinearLayout>
